@@ -1,0 +1,4 @@
+interface:
+  display_name: "UX Principles"
+  short_description: "Explain and review UX decisions with evidence"
+  default_prompt: "Use $ux-principles to review this interface and explain the relevant principles with evidence, limitations, and source links."
