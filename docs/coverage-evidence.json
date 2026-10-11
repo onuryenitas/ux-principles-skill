@@ -1,0 +1,1055 @@
+{
+  "reviewed_on": "2026-10-11",
+  "wcag_active_ids": [
+    "1.1.1",
+    "1.2.1",
+    "1.2.2",
+    "1.2.3",
+    "1.2.4",
+    "1.2.5",
+    "1.2.6",
+    "1.2.7",
+    "1.2.8",
+    "1.2.9",
+    "1.3.1",
+    "1.3.2",
+    "1.3.3",
+    "1.3.4",
+    "1.3.5",
+    "1.3.6",
+    "1.4.1",
+    "1.4.2",
+    "1.4.3",
+    "1.4.4",
+    "1.4.5",
+    "1.4.6",
+    "1.4.7",
+    "1.4.8",
+    "1.4.9",
+    "1.4.10",
+    "1.4.11",
+    "1.4.12",
+    "1.4.13",
+    "2.1.1",
+    "2.1.2",
+    "2.1.3",
+    "2.1.4",
+    "2.2.1",
+    "2.2.2",
+    "2.2.3",
+    "2.2.4",
+    "2.2.5",
+    "2.2.6",
+    "2.3.1",
+    "2.3.2",
+    "2.3.3",
+    "2.4.1",
+    "2.4.2",
+    "2.4.3",
+    "2.4.4",
+    "2.4.5",
+    "2.4.6",
+    "2.4.7",
+    "2.4.8",
+    "2.4.9",
+    "2.4.10",
+    "2.4.11",
+    "2.4.12",
+    "2.4.13",
+    "2.5.1",
+    "2.5.2",
+    "2.5.3",
+    "2.5.4",
+    "2.5.5",
+    "2.5.6",
+    "2.5.7",
+    "2.5.8",
+    "3.1.1",
+    "3.1.2",
+    "3.1.3",
+    "3.1.4",
+    "3.1.5",
+    "3.1.6",
+    "3.2.1",
+    "3.2.2",
+    "3.2.3",
+    "3.2.4",
+    "3.2.5",
+    "3.2.6",
+    "3.3.1",
+    "3.3.2",
+    "3.3.3",
+    "3.3.4",
+    "3.3.5",
+    "3.3.6",
+    "3.3.7",
+    "3.3.8",
+    "3.3.9",
+    "4.1.2",
+    "4.1.3"
+  ],
+  "apg_pattern_ids": [
+    "apg-accordion",
+    "apg-alert",
+    "apg-alertdialog",
+    "apg-breadcrumb",
+    "apg-button",
+    "apg-carousel",
+    "apg-checkbox",
+    "apg-combobox",
+    "apg-dialog-modal",
+    "apg-disclosure",
+    "apg-feed",
+    "apg-grid",
+    "apg-landmarks",
+    "apg-link",
+    "apg-listbox",
+    "apg-menubar",
+    "apg-menu-button",
+    "apg-meter",
+    "apg-radio",
+    "apg-slider",
+    "apg-slider-multithumb",
+    "apg-spinbutton",
+    "apg-switch",
+    "apg-table",
+    "apg-tabs",
+    "apg-toolbar",
+    "apg-tooltip",
+    "apg-treeview",
+    "apg-treegrid",
+    "apg-windowsplitter"
+  ],
+  "records": [
+    {
+      "id": "aesthetic-usability-effect",
+      "source_url": "https://lawsofux.com/aesthetic-usability-effect/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "choice-overload",
+      "source_url": "https://lawsofux.com/choice-overload/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "chunking",
+      "source_url": "https://lawsofux.com/chunking/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "cognitive-bias",
+      "source_url": "https://lawsofux.com/cognitive-bias/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "cognitive-load",
+      "source_url": "https://lawsofux.com/cognitive-load/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "doherty-threshold",
+      "source_url": "https://lawsofux.com/doherty-threshold/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "fitts-law",
+      "source_url": "https://lawsofux.com/fittss-law/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "flow",
+      "source_url": "https://lawsofux.com/flow/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "goal-gradient-effect",
+      "source_url": "https://lawsofux.com/goal-gradient-effect/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "hicks-law",
+      "source_url": "https://lawsofux.com/hicks-law/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "jakobs-law",
+      "source_url": "https://lawsofux.com/jakobs-law/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "common-region",
+      "source_url": "https://lawsofux.com/law-of-common-region/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "proximity",
+      "source_url": "https://lawsofux.com/law-of-proximity/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "pragnanz",
+      "source_url": "https://lawsofux.com/law-of-pr%C3%A4gnanz/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "similarity",
+      "source_url": "https://lawsofux.com/law-of-similarity/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "uniform-connectedness",
+      "source_url": "https://lawsofux.com/law-of-uniform-connectedness/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "mental-model",
+      "source_url": "https://lawsofux.com/mental-model/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "millers-law",
+      "source_url": "https://lawsofux.com/millers-law/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "occams-razor",
+      "source_url": "https://lawsofux.com/occams-razor/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "active-user",
+      "source_url": "https://lawsofux.com/paradox-of-the-active-user/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "pareto-principle",
+      "source_url": "https://lawsofux.com/pareto-principle/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "parkinsons-law",
+      "source_url": "https://lawsofux.com/parkinsons-law/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "peak-end-rule",
+      "source_url": "https://lawsofux.com/peak-end-rule/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "postels-law",
+      "source_url": "https://lawsofux.com/postels-law/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "selective-attention",
+      "source_url": "https://lawsofux.com/selective-attention/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "serial-position-effect",
+      "source_url": "https://lawsofux.com/serial-position-effect/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "teslers-law",
+      "source_url": "https://lawsofux.com/teslers-law/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "von-restorff-effect",
+      "source_url": "https://lawsofux.com/von-restorff-effect/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "working-memory",
+      "source_url": "https://lawsofux.com/working-memory/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "zeigarnik-effect",
+      "source_url": "https://lawsofux.com/zeigarnik-effect/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "nielsen-01",
+      "source_url": "https://www.nngroup.com/articles/visibility-system-status/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "nielsen-02",
+      "source_url": "https://www.nngroup.com/articles/match-system-real-world/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "nielsen-03",
+      "source_url": "https://www.nngroup.com/articles/user-control-and-freedom/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "nielsen-04",
+      "source_url": "https://www.nngroup.com/articles/consistency-and-standards/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "nielsen-05",
+      "source_url": "https://www.nngroup.com/articles/slips/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "nielsen-06",
+      "source_url": "https://www.nngroup.com/articles/recognition-and-recall/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "nielsen-07",
+      "source_url": "https://www.nngroup.com/articles/flexibility-efficiency-heuristic/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "nielsen-08",
+      "source_url": "https://www.nngroup.com/articles/aesthetic-minimalist-design/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "nielsen-09",
+      "source_url": "https://www.nngroup.com/articles/error-message-guidelines/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "nielsen-10",
+      "source_url": "https://www.nngroup.com/articles/help-and-documentation/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-1.1.1",
+      "source_url": "https://www.w3.org/TR/WCAG22/#non-text-content",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-1.2.1",
+      "source_url": "https://www.w3.org/TR/WCAG22/#audio-only-and-video-only-prerecorded",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-1.2.2",
+      "source_url": "https://www.w3.org/TR/WCAG22/#captions-prerecorded",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-1.2.3",
+      "source_url": "https://www.w3.org/TR/WCAG22/#audio-description-or-media-alternative-prerecorded",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-1.2.4",
+      "source_url": "https://www.w3.org/TR/WCAG22/#captions-live",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-1.2.5",
+      "source_url": "https://www.w3.org/TR/WCAG22/#audio-description-prerecorded",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-1.2.6",
+      "source_url": "https://www.w3.org/TR/WCAG22/#sign-language-prerecorded",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-1.2.7",
+      "source_url": "https://www.w3.org/TR/WCAG22/#extended-audio-description-prerecorded",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-1.2.8",
+      "source_url": "https://www.w3.org/TR/WCAG22/#media-alternative-prerecorded",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-1.2.9",
+      "source_url": "https://www.w3.org/TR/WCAG22/#audio-only-live",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-1.3.1",
+      "source_url": "https://www.w3.org/TR/WCAG22/#info-and-relationships",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-1.3.2",
+      "source_url": "https://www.w3.org/TR/WCAG22/#meaningful-sequence",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-1.3.3",
+      "source_url": "https://www.w3.org/TR/WCAG22/#sensory-characteristics",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-1.3.4",
+      "source_url": "https://www.w3.org/TR/WCAG22/#orientation",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-1.3.5",
+      "source_url": "https://www.w3.org/TR/WCAG22/#identify-input-purpose",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-1.3.6",
+      "source_url": "https://www.w3.org/TR/WCAG22/#identify-purpose",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-1.4.1",
+      "source_url": "https://www.w3.org/TR/WCAG22/#use-of-color",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-1.4.2",
+      "source_url": "https://www.w3.org/TR/WCAG22/#audio-control",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-1.4.3",
+      "source_url": "https://www.w3.org/TR/WCAG22/#contrast-minimum",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-1.4.4",
+      "source_url": "https://www.w3.org/TR/WCAG22/#resize-text",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-1.4.5",
+      "source_url": "https://www.w3.org/TR/WCAG22/#images-of-text",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-1.4.6",
+      "source_url": "https://www.w3.org/TR/WCAG22/#contrast-enhanced",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-1.4.7",
+      "source_url": "https://www.w3.org/TR/WCAG22/#low-or-no-background-audio",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-1.4.8",
+      "source_url": "https://www.w3.org/TR/WCAG22/#visual-presentation",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-1.4.9",
+      "source_url": "https://www.w3.org/TR/WCAG22/#images-of-text-no-exception",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-1.4.10",
+      "source_url": "https://www.w3.org/TR/WCAG22/#reflow",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-1.4.11",
+      "source_url": "https://www.w3.org/TR/WCAG22/#non-text-contrast",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-1.4.12",
+      "source_url": "https://www.w3.org/TR/WCAG22/#text-spacing",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-1.4.13",
+      "source_url": "https://www.w3.org/TR/WCAG22/#content-on-hover-or-focus",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-2.1.1",
+      "source_url": "https://www.w3.org/TR/WCAG22/#keyboard",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-2.1.2",
+      "source_url": "https://www.w3.org/TR/WCAG22/#no-keyboard-trap",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-2.1.3",
+      "source_url": "https://www.w3.org/TR/WCAG22/#keyboard-no-exception",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-2.1.4",
+      "source_url": "https://www.w3.org/TR/WCAG22/#character-key-shortcuts",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-2.2.1",
+      "source_url": "https://www.w3.org/TR/WCAG22/#timing-adjustable",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-2.2.2",
+      "source_url": "https://www.w3.org/TR/WCAG22/#pause-stop-hide",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-2.2.3",
+      "source_url": "https://www.w3.org/TR/WCAG22/#no-timing",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-2.2.4",
+      "source_url": "https://www.w3.org/TR/WCAG22/#interruptions",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-2.2.5",
+      "source_url": "https://www.w3.org/TR/WCAG22/#re-authenticating",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-2.2.6",
+      "source_url": "https://www.w3.org/TR/WCAG22/#timeouts",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-2.3.1",
+      "source_url": "https://www.w3.org/TR/WCAG22/#three-flashes-or-below-threshold",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-2.3.2",
+      "source_url": "https://www.w3.org/TR/WCAG22/#three-flashes",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-2.3.3",
+      "source_url": "https://www.w3.org/TR/WCAG22/#animation-from-interactions",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-2.4.1",
+      "source_url": "https://www.w3.org/TR/WCAG22/#bypass-blocks",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-2.4.2",
+      "source_url": "https://www.w3.org/TR/WCAG22/#page-titled",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-2.4.3",
+      "source_url": "https://www.w3.org/TR/WCAG22/#focus-order",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-2.4.4",
+      "source_url": "https://www.w3.org/TR/WCAG22/#link-purpose-in-context",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-2.4.5",
+      "source_url": "https://www.w3.org/TR/WCAG22/#multiple-ways",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-2.4.6",
+      "source_url": "https://www.w3.org/TR/WCAG22/#headings-and-labels",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-2.4.7",
+      "source_url": "https://www.w3.org/TR/WCAG22/#focus-visible",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-2.4.8",
+      "source_url": "https://www.w3.org/TR/WCAG22/#location",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-2.4.9",
+      "source_url": "https://www.w3.org/TR/WCAG22/#link-purpose-link-only",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-2.4.10",
+      "source_url": "https://www.w3.org/TR/WCAG22/#section-headings",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-2.4.11",
+      "source_url": "https://www.w3.org/TR/WCAG22/#focus-not-obscured-minimum",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-2.4.12",
+      "source_url": "https://www.w3.org/TR/WCAG22/#focus-not-obscured-enhanced",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-2.4.13",
+      "source_url": "https://www.w3.org/TR/WCAG22/#focus-appearance",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-2.5.1",
+      "source_url": "https://www.w3.org/TR/WCAG22/#pointer-gestures",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-2.5.2",
+      "source_url": "https://www.w3.org/TR/WCAG22/#pointer-cancellation",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-2.5.3",
+      "source_url": "https://www.w3.org/TR/WCAG22/#label-in-name",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-2.5.4",
+      "source_url": "https://www.w3.org/TR/WCAG22/#motion-actuation",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-2.5.5",
+      "source_url": "https://www.w3.org/TR/WCAG22/#target-size-enhanced",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-2.5.6",
+      "source_url": "https://www.w3.org/TR/WCAG22/#concurrent-input-mechanisms",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-2.5.7",
+      "source_url": "https://www.w3.org/TR/WCAG22/#dragging-movements",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-2.5.8",
+      "source_url": "https://www.w3.org/TR/WCAG22/#target-size-minimum",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-3.1.1",
+      "source_url": "https://www.w3.org/TR/WCAG22/#language-of-page",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-3.1.2",
+      "source_url": "https://www.w3.org/TR/WCAG22/#language-of-parts",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-3.1.3",
+      "source_url": "https://www.w3.org/TR/WCAG22/#unusual-words",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-3.1.4",
+      "source_url": "https://www.w3.org/TR/WCAG22/#abbreviations",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-3.1.5",
+      "source_url": "https://www.w3.org/TR/WCAG22/#reading-level",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-3.1.6",
+      "source_url": "https://www.w3.org/TR/WCAG22/#pronunciation",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-3.2.1",
+      "source_url": "https://www.w3.org/TR/WCAG22/#on-focus",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-3.2.2",
+      "source_url": "https://www.w3.org/TR/WCAG22/#on-input",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-3.2.3",
+      "source_url": "https://www.w3.org/TR/WCAG22/#consistent-navigation",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-3.2.4",
+      "source_url": "https://www.w3.org/TR/WCAG22/#consistent-identification",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-3.2.5",
+      "source_url": "https://www.w3.org/TR/WCAG22/#change-on-request",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-3.2.6",
+      "source_url": "https://www.w3.org/TR/WCAG22/#consistent-help",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-3.3.1",
+      "source_url": "https://www.w3.org/TR/WCAG22/#error-identification",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-3.3.2",
+      "source_url": "https://www.w3.org/TR/WCAG22/#labels-or-instructions",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-3.3.3",
+      "source_url": "https://www.w3.org/TR/WCAG22/#error-suggestion",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-3.3.4",
+      "source_url": "https://www.w3.org/TR/WCAG22/#error-prevention-legal-financial-data",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-3.3.5",
+      "source_url": "https://www.w3.org/TR/WCAG22/#help",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-3.3.6",
+      "source_url": "https://www.w3.org/TR/WCAG22/#error-prevention-all",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-3.3.7",
+      "source_url": "https://www.w3.org/TR/WCAG22/#redundant-entry",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-3.3.8",
+      "source_url": "https://www.w3.org/TR/WCAG22/#accessible-authentication-minimum",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-3.3.9",
+      "source_url": "https://www.w3.org/TR/WCAG22/#accessible-authentication-enhanced",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-4.1.2",
+      "source_url": "https://www.w3.org/TR/WCAG22/#name-role-value",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "wcag-4.1.3",
+      "source_url": "https://www.w3.org/TR/WCAG22/#status-messages",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "apg-accordion",
+      "source_url": "https://www.w3.org/WAI/ARIA/apg/patterns/accordion/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "apg-alert",
+      "source_url": "https://www.w3.org/WAI/ARIA/apg/patterns/alert/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "apg-alertdialog",
+      "source_url": "https://www.w3.org/WAI/ARIA/apg/patterns/alertdialog/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "apg-breadcrumb",
+      "source_url": "https://www.w3.org/WAI/ARIA/apg/patterns/breadcrumb/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "apg-button",
+      "source_url": "https://www.w3.org/WAI/ARIA/apg/patterns/button/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "apg-carousel",
+      "source_url": "https://www.w3.org/WAI/ARIA/apg/patterns/carousel/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "apg-checkbox",
+      "source_url": "https://www.w3.org/WAI/ARIA/apg/patterns/checkbox/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "apg-combobox",
+      "source_url": "https://www.w3.org/WAI/ARIA/apg/patterns/combobox/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "apg-dialog-modal",
+      "source_url": "https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "apg-disclosure",
+      "source_url": "https://www.w3.org/WAI/ARIA/apg/patterns/disclosure/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "apg-feed",
+      "source_url": "https://www.w3.org/WAI/ARIA/apg/patterns/feed/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "apg-grid",
+      "source_url": "https://www.w3.org/WAI/ARIA/apg/patterns/grid/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "apg-landmarks",
+      "source_url": "https://www.w3.org/WAI/ARIA/apg/patterns/landmarks/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "apg-link",
+      "source_url": "https://www.w3.org/WAI/ARIA/apg/patterns/link/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "apg-listbox",
+      "source_url": "https://www.w3.org/WAI/ARIA/apg/patterns/listbox/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "apg-menubar",
+      "source_url": "https://www.w3.org/WAI/ARIA/apg/patterns/menubar/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "apg-menu-button",
+      "source_url": "https://www.w3.org/WAI/ARIA/apg/patterns/menu-button/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "apg-meter",
+      "source_url": "https://www.w3.org/WAI/ARIA/apg/patterns/meter/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "apg-radio",
+      "source_url": "https://www.w3.org/WAI/ARIA/apg/patterns/radio/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "apg-slider",
+      "source_url": "https://www.w3.org/WAI/ARIA/apg/patterns/slider/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "apg-slider-multithumb",
+      "source_url": "https://www.w3.org/WAI/ARIA/apg/patterns/slider-multithumb/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "apg-spinbutton",
+      "source_url": "https://www.w3.org/WAI/ARIA/apg/patterns/spinbutton/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "apg-switch",
+      "source_url": "https://www.w3.org/WAI/ARIA/apg/patterns/switch/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "apg-table",
+      "source_url": "https://www.w3.org/WAI/ARIA/apg/patterns/table/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "apg-tabs",
+      "source_url": "https://www.w3.org/WAI/ARIA/apg/patterns/tabs/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "apg-toolbar",
+      "source_url": "https://www.w3.org/WAI/ARIA/apg/patterns/toolbar/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "apg-tooltip",
+      "source_url": "https://www.w3.org/WAI/ARIA/apg/patterns/tooltip/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "apg-treeview",
+      "source_url": "https://www.w3.org/WAI/ARIA/apg/patterns/treeview/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "apg-treegrid",
+      "source_url": "https://www.w3.org/WAI/ARIA/apg/patterns/treegrid/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "apg-windowsplitter",
+      "source_url": "https://www.w3.org/WAI/ARIA/apg/patterns/windowsplitter/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "flow-form-questions",
+      "source_url": "https://design-system.service.gov.uk/patterns/question-pages/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "flow-validation",
+      "source_url": "https://design-system.service.gov.uk/patterns/validation/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "flow-review-submit",
+      "source_url": "https://design-system.service.gov.uk/patterns/check-answers/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "flow-confirmation",
+      "source_url": "https://design-system.service.gov.uk/patterns/confirmation-pages/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "flow-account-need",
+      "source_url": "https://design-system.service.gov.uk/patterns/create-accounts/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "flow-authentication",
+      "source_url": "https://design-system.service.gov.uk/patterns/passwords/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "flow-names",
+      "source_url": "https://design-system.service.gov.uk/patterns/names/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "flow-addresses",
+      "source_url": "https://design-system.service.gov.uk/patterns/addresses/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "flow-dates",
+      "source_url": "https://design-system.service.gov.uk/patterns/dates/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "flow-contact-inputs",
+      "source_url": "https://design-system.service.gov.uk/patterns/email-addresses/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "flow-navigation",
+      "source_url": "https://design-system.service.gov.uk/patterns/navigate-a-service/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "flow-search",
+      "source_url": "https://www.nngroup.com/articles/search-visible-and-simple/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "flow-progressive-disclosure",
+      "source_url": "https://www.nngroup.com/articles/progressive-disclosure/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "flow-affordances",
+      "source_url": "https://www.nngroup.com/articles/flat-design-best-practices/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "flow-loading",
+      "source_url": "https://www.nngroup.com/articles/visibility-system-status/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "flow-empty-offline",
+      "source_url": "https://design-system.service.gov.uk/patterns/service-unavailable-pages/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "flow-destructive-actions",
+      "source_url": "https://www.nngroup.com/articles/user-control-and-freedom/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "flow-multistep",
+      "source_url": "https://design-system.service.gov.uk/patterns/complete-multiple-tasks/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "flow-help-support",
+      "source_url": "https://design-system.service.gov.uk/patterns/contact-a-department-or-service-team/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "flow-responsive",
+      "source_url": "https://www.w3.org/TR/WCAG22/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "flow-content",
+      "source_url": "https://www.nngroup.com/articles/match-system-real-world/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "flow-i18n",
+      "source_url": "https://www.w3.org/International/quicktips/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "flow-tables-charts",
+      "source_url": "https://www.w3.org/WAI/tutorials/tables/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "flow-motion",
+      "source_url": "https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions.html",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "flow-performance",
+      "source_url": "https://web.dev/articles/vitals",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "flow-privacy-choice",
+      "source_url": "https://design-system.service.gov.uk/components/cookie-banner/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "flow-research",
+      "source_url": "https://www.gov.uk/service-manual/user-research/using-moderated-usability-testing",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "flow-research-privacy",
+      "source_url": "https://www.gov.uk/service-manual/user-research/managing-user-research-data-participant-privacy",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "flow-ai-interaction",
+      "source_url": "https://www.microsoft.com/en-us/haxtoolkit/ai-guidelines/",
+      "reviewed_on": "2026-10-11"
+    },
+    {
+      "id": "flow-design-system",
+      "source_url": "https://www.nngroup.com/articles/consistency-and-standards/",
+      "reviewed_on": "2026-10-11"
+    }
+  ]
+}
