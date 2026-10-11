@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "articles": [
+    {
+      "id": "familiar-vs-novel",
+      "title": "Familiar vs Novel",
+      "principle_ids": [
+        "jakobs-law",
+        "mental-model"
+      ],
+      "source_url": "https://lawsofux.com/articles/2024/familiar-vs-novel/",
+      "reviewed_on": "2026-10-11",
+      "application_note": "Keep familiar behavior for routine tasks; consider novelty when discovery is itself the goal. Compare the learning cost with the intended benefit.",
+      "original_exercise": "Test a novel gallery interaction against a familiar browse path; keep a clear exit and keyboard route."
+    },
+    {
+      "id": "onboarding-active-users",
+      "title": "Onboarding for Active Users",
+      "principle_ids": [
+        "active-user",
+        "cognitive-load"
+      ],
+      "source_url": "https://lawsofux.com/articles/2024/onboarding-for-active-users/",
+      "reviewed_on": "2026-10-11",
+      "application_note": "Teach within the task and make help revisitable instead of requiring a long introduction.",
+      "original_exercise": "Prototype a first document creation flow with optional contextual help; test it after skipping onboarding."
+    },
+    {
+      "id": "tesler-article",
+      "title": "Tesler’s Law",
+      "principle_ids": [
+        "teslers-law",
+        "active-user",
+        "occams-razor"
+      ],
+      "source_url": "https://lawsofux.com/articles/2024/teslers-law/",
+      "reviewed_on": "2026-10-11",
+      "application_note": "Distinguish necessary complexity from avoidable burden and decide whether the system can responsibly handle it.",
+      "original_exercise": "Map each booking decision to user or system; provide editable defaults and a review step."
+    },
+    {
+      "id": "search-case",
+      "title": "UX Psychology: Google Search",
+      "principle_ids": [
+        "hicks-law",
+        "working-memory",
+        "chunking",
+        "proximity",
+        "doherty-threshold"
+      ],
+      "source_url": "https://lawsofux.com/articles/2020/ux-psychology-google-search/",
+      "reviewed_on": "2026-10-11",
+      "application_note": "Use this historical case as a lens for examining search initiation, retained context, result grouping, and feedback. It is not an audit of the current Google interface.",
+      "original_exercise": "Review a fictional library search with query retention, keyboard suggestions, filters, and empty results."
+    },
+    {
+      "id": "peak-end-article",
+      "title": "Peak-End Rule",
+      "principle_ids": [
+        "peak-end-rule",
+        "cognitive-bias"
+      ],
+      "source_url": "https://lawsofux.com/articles/2020/peak-end-rule/",
+      "reviewed_on": "2026-10-11",
+      "application_note": "Map difficult and concluding moments of a journey, including recovery rather than only celebration.",
+      "original_exercise": "For a failed reservation, preserve entered data, explain the outcome, and offer a safe next step."
+    },
+    {
+      "id": "psychology-design",
+      "title": "The Psychology of Design",
+      "principle_ids": [
+        "hicks-law",
+        "millers-law",
+        "jakobs-law"
+      ],
+      "source_url": "https://lawsofux.com/articles/2018/the-psychology-of-design/",
+      "reviewed_on": "2026-10-11",
+      "application_note": "Use psychology as design guidance alongside research; avoid turning familiarity, memory, or choice into rigid formulas.",
+      "original_exercise": "Compare two proposal editors by task success and user control, not engagement alone."
+    },
+    {
+      "id": "occam-article",
+      "title": "Designing with Occam’s Razor",
+      "principle_ids": [
+        "occams-razor"
+      ],
+      "source_url": "https://lawsofux.com/articles/2017/designing-with-occams-razor/",
+      "reviewed_on": "2026-10-11",
+      "application_note": "Question added mechanisms and assumptions; retain the simplest approach that still serves the user’s task.",
+      "original_exercise": "Compare a plain approval list with an elaborate board while preserving exceptions and accountability."
+    },
+    {
+      "id": "reduce-load",
+      "title": "Design Principles for Reducing Cognitive Load",
+      "principle_ids": [
+        "cognitive-load",
+        "chunking",
+        "mental-model",
+        "teslers-law"
+      ],
+      "source_url": "https://lawsofux.com/articles/2015/design-principles-for-reducing-cognitive-load/",
+      "reviewed_on": "2026-10-11",
+      "application_note": "Reduce unnecessary interpretation and recall while keeping needed alternatives discoverable.",
+      "original_exercise": "Add explicit labels to unfamiliar icons and show a summary beside a multistep form."
+    }
+  ]
+}

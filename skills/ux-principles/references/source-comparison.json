@@ -1,0 +1,114 @@
+{
+  "source_url": "https://www.uxdesigninstitute.com/blog/laws-of-ux/",
+  "author": "Emily Stevens",
+  "published_on": "2024-04-30",
+  "reviewed_on": "2026-10-11",
+  "result": "All 21 named laws map to existing records; no additional unique law.",
+  "matches": [
+    {
+      "article_position": 1,
+      "principle_id": "aesthetic-usability-effect",
+      "name": "Aesthetic–Usability Effect"
+    },
+    {
+      "article_position": 2,
+      "principle_id": "fitts-law",
+      "name": "Fitts’s Law"
+    },
+    {
+      "article_position": 3,
+      "principle_id": "goal-gradient-effect",
+      "name": "Goal-Gradient Effect"
+    },
+    {
+      "article_position": 4,
+      "principle_id": "hicks-law",
+      "name": "Hick’s Law"
+    },
+    {
+      "article_position": 5,
+      "principle_id": "jakobs-law",
+      "name": "Jakob’s Law"
+    },
+    {
+      "article_position": 6,
+      "principle_id": "millers-law",
+      "name": "Miller’s Law"
+    },
+    {
+      "article_position": 7,
+      "principle_id": "parkinsons-law",
+      "name": "Parkinson’s Law"
+    },
+    {
+      "article_position": 8,
+      "principle_id": "common-region",
+      "name": "Law of Common Region"
+    },
+    {
+      "article_position": 9,
+      "principle_id": "proximity",
+      "name": "Law of Proximity"
+    },
+    {
+      "article_position": 10,
+      "principle_id": "pragnanz",
+      "name": "Law of Prägnanz"
+    },
+    {
+      "article_position": 11,
+      "principle_id": "similarity",
+      "name": "Law of Similarity"
+    },
+    {
+      "article_position": 12,
+      "principle_id": "uniform-connectedness",
+      "name": "Law of Uniform Connectedness"
+    },
+    {
+      "article_position": 13,
+      "principle_id": "peak-end-rule",
+      "name": "Peak-End Rule"
+    },
+    {
+      "article_position": 14,
+      "principle_id": "serial-position-effect",
+      "name": "Serial Position Effect"
+    },
+    {
+      "article_position": 15,
+      "principle_id": "von-restorff-effect",
+      "name": "Von Restorff Effect"
+    },
+    {
+      "article_position": 16,
+      "principle_id": "zeigarnik-effect",
+      "name": "Zeigarnik Effect"
+    },
+    {
+      "article_position": 17,
+      "principle_id": "doherty-threshold",
+      "name": "Doherty Threshold"
+    },
+    {
+      "article_position": 18,
+      "principle_id": "occams-razor",
+      "name": "Occam’s Razor"
+    },
+    {
+      "article_position": 19,
+      "principle_id": "pareto-principle",
+      "name": "Pareto Principle"
+    },
+    {
+      "article_position": 20,
+      "principle_id": "postels-law",
+      "name": "Postel’s Law"
+    },
+    {
+      "article_position": 21,
+      "principle_id": "teslers-law",
+      "name": "Tesler’s Law"
+    }
+  ]
+}

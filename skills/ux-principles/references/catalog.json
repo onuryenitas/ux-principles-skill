@@ -1,0 +1,51 @@
+{
+  "schema_version": 2,
+  "version": "1.0.0",
+  "reviewed_on": "2026-10-11",
+  "scope": "Web and responsive product UX; source-linked reasoning, review and test planning.",
+  "collections": [
+    {
+      "file": "principles.json",
+      "key": "principles",
+      "kind": "principle",
+      "label": "UX laws and concepts",
+      "count": 30
+    },
+    {
+      "file": "heuristics.json",
+      "key": "records",
+      "kind": "heuristic",
+      "label": "Nielsen heuristics",
+      "count": 10
+    },
+    {
+      "file": "accessibility.json",
+      "key": "records",
+      "kind": "standard",
+      "label": "WCAG 2.2 criteria",
+      "count": 86
+    },
+    {
+      "file": "components.json",
+      "key": "records",
+      "kind": "component",
+      "label": "ARIA APG components",
+      "count": 30
+    },
+    {
+      "file": "workflows.json",
+      "key": "records",
+      "kind": "workflow",
+      "label": "Practical UX workflows",
+      "count": 30
+    }
+  ],
+  "total_records": 186,
+  "reading_routes": 8,
+  "wcag_levels": {
+    "A": 31,
+    "AA": 24,
+    "AAA": 31
+  },
+  "claim": "Complete coverage of the named inventories at the review date; not an exhaustive inventory of all UX knowledge."
+}

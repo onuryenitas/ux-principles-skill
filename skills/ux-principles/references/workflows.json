@@ -1,0 +1,864 @@
+{
+  "schema_version": 2,
+  "records": [
+    {
+      "id": "flow-form-questions",
+      "name": "Form structure and questions",
+      "kind": "workflow",
+      "category": "forms",
+      "aliases": [
+        "form",
+        "alan",
+        "soru"
+      ],
+      "explanation": "Collect only information needed for the task. Group questions by meaning; keep instructions visible before input.",
+      "action": "Break a long flow at meaningful boundaries; preserve entered values when going back.",
+      "states": [
+        "empty",
+        "partial",
+        "back",
+        "conditional questions"
+      ],
+      "check": "Complete with a realistic long answer, skipped optional fields and back navigation.",
+      "caution": "One question per page is a contextual GOV.UK pattern, not a universal law for every product.",
+      "source_url": "https://design-system.service.gov.uk/patterns/question-pages/",
+      "reviewed_on": "2026-10-11",
+      "note_type": "original package workflow informed by linked source; not a universal rule",
+      "related_ids": [
+        "chunking",
+        "wcag-3.3.2",
+        "nielsen-08"
+      ]
+    },
+    {
+      "id": "flow-validation",
+      "name": "Validation and error recovery",
+      "kind": "workflow",
+      "category": "forms",
+      "aliases": [
+        "hata",
+        "doğrulama"
+      ],
+      "explanation": "Explain what failed and how to correct it near the field; connect summary links to affected inputs.",
+      "action": "Preserve valid values and identify errors without relying on color.",
+      "states": [
+        "invalid",
+        "server rejection",
+        "corrected",
+        "resubmit"
+      ],
+      "check": "Submit multiple errors, follow their links and complete correction using keyboard.",
+      "caution": "Do not aggressively reject incomplete typing or replace server validation with visual checks.",
+      "source_url": "https://design-system.service.gov.uk/patterns/validation/",
+      "reviewed_on": "2026-10-11",
+      "note_type": "original package workflow informed by linked source; not a universal rule",
+      "related_ids": [
+        "nielsen-09",
+        "wcag-3.3.1",
+        "wcag-3.3.3"
+      ]
+    },
+    {
+      "id": "flow-review-submit",
+      "name": "Review before commitment",
+      "kind": "workflow",
+      "category": "transactions",
+      "aliases": [
+        "ödeme",
+        "onay",
+        "kontrol"
+      ],
+      "explanation": "Make consequential details reviewable before the final action.",
+      "action": "Let users edit one answer and return with other entries intact.",
+      "states": [
+        "review",
+        "edit",
+        "confirm",
+        "failed submit"
+      ],
+      "check": "Change the delivery address from review and confirm the intended final data.",
+      "caution": "Use proportional confirmation; repeated generic dialogs can become automatic clicks.",
+      "source_url": "https://design-system.service.gov.uk/patterns/check-answers/",
+      "reviewed_on": "2026-10-11",
+      "note_type": "original package workflow informed by linked source; not a universal rule",
+      "related_ids": [
+        "nielsen-05",
+        "wcag-3.3.4"
+      ]
+    },
+    {
+      "id": "flow-confirmation",
+      "name": "Completion and next steps",
+      "kind": "workflow",
+      "category": "transactions",
+      "aliases": [
+        "başarı",
+        "tamamlandı"
+      ],
+      "explanation": "Differentiate receipt of a request from its approval or completion.",
+      "action": "Give a useful reference, next step and a way to return to the result.",
+      "states": [
+        "accepted",
+        "pending decision",
+        "completed"
+      ],
+      "check": "Ask a user what happened, what remains and where to find the reference later.",
+      "caution": "Never show success before the relevant operation actually succeeds.",
+      "source_url": "https://design-system.service.gov.uk/patterns/confirmation-pages/",
+      "reviewed_on": "2026-10-11",
+      "note_type": "original package workflow informed by linked source; not a universal rule",
+      "related_ids": [
+        "nielsen-01",
+        "wcag-4.1.3",
+        "peak-end-rule"
+      ]
+    },
+    {
+      "id": "flow-account-need",
+      "name": "Account creation and onboarding",
+      "kind": "workflow",
+      "category": "accounts",
+      "aliases": [
+        "kayıt",
+        "üyelik",
+        "onboarding"
+      ],
+      "explanation": "Require an account when the service needs it; explain its benefit and separate sign-in from creation.",
+      "action": "Let people reach useful context before asking for commitment when feasible.",
+      "states": [
+        "new",
+        "existing",
+        "duplicate",
+        "abandoned"
+      ],
+      "check": "Compare the minimum journey with and without an account requirement.",
+      "caution": "Do not remove a genuinely necessary identity check merely to reduce steps.",
+      "source_url": "https://design-system.service.gov.uk/patterns/create-accounts/",
+      "reviewed_on": "2026-10-11",
+      "note_type": "original package workflow informed by linked source; not a universal rule",
+      "related_ids": [
+        "active-user",
+        "cognitive-load"
+      ]
+    },
+    {
+      "id": "flow-authentication",
+      "name": "Sign-in and recovery",
+      "kind": "workflow",
+      "category": "accounts",
+      "aliases": [
+        "şifre",
+        "parola",
+        "giriş"
+      ],
+      "explanation": "Support password managers and paste; make requirements visible and consistent.",
+      "action": "Provide a recovery route that works without remembering unavailable credentials.",
+      "states": [
+        "invalid",
+        "locked",
+        "expired",
+        "recovered"
+      ],
+      "check": "Test password-manager entry, recovery and an expired verification link.",
+      "caution": "Security policy depends on the service; this package does not prescribe universal password lengths.",
+      "source_url": "https://design-system.service.gov.uk/patterns/passwords/",
+      "reviewed_on": "2026-10-11",
+      "note_type": "original package workflow informed by linked source; not a universal rule",
+      "related_ids": [
+        "wcag-3.3.8",
+        "wcag-3.3.9",
+        "nielsen-03"
+      ]
+    },
+    {
+      "id": "flow-names",
+      "name": "Names and identity data",
+      "kind": "workflow",
+      "category": "forms",
+      "aliases": [
+        "isim",
+        "ad",
+        "soyad"
+      ],
+      "explanation": "Avoid unnecessary assumptions about the structure and alphabet of a person's name.",
+      "action": "Ask only for the name format needed by the service; explain justified restrictions.",
+      "states": [
+        "single name",
+        "long",
+        "diacritics",
+        "changed"
+      ],
+      "check": "Try varied real-world name structures with representative test data.",
+      "caution": "Do not infer nationality, gender or identity from a name.",
+      "source_url": "https://design-system.service.gov.uk/patterns/names/",
+      "reviewed_on": "2026-10-11",
+      "note_type": "original package workflow informed by linked source; not a universal rule",
+      "related_ids": [
+        "postels-law",
+        "wcag-1.3.5"
+      ]
+    },
+    {
+      "id": "flow-addresses",
+      "name": "Addresses and manual alternatives",
+      "kind": "workflow",
+      "category": "forms",
+      "aliases": [
+        "adres",
+        "posta"
+      ],
+      "explanation": "Provide a route when lookup cannot find a valid address.",
+      "action": "Preserve manual entry and review the selected address in context.",
+      "states": [
+        "found",
+        "not found",
+        "international",
+        "edited"
+      ],
+      "check": "Complete with a new building or unsupported location.",
+      "caution": "Postal conventions and eligibility vary; a UK pattern needs localization elsewhere.",
+      "source_url": "https://design-system.service.gov.uk/patterns/addresses/",
+      "reviewed_on": "2026-10-11",
+      "note_type": "original package workflow informed by linked source; not a universal rule",
+      "related_ids": [
+        "postels-law",
+        "wcag-3.3.7"
+      ]
+    },
+    {
+      "id": "flow-dates",
+      "name": "Dates, times and ambiguity",
+      "kind": "workflow",
+      "category": "forms",
+      "aliases": [
+        "tarih",
+        "saat",
+        "takvim"
+      ],
+      "explanation": "Match date entry to the task and make interpretation unambiguous.",
+      "action": "Distinguish remembered dates from choosing an available appointment.",
+      "states": [
+        "invalid",
+        "ambiguous",
+        "timezone",
+        "unavailable"
+      ],
+      "check": "Try 04/05, leap day and a booking near a timezone boundary.",
+      "caution": "Never silently guess a consequential ambiguous date.",
+      "source_url": "https://design-system.service.gov.uk/patterns/dates/",
+      "reviewed_on": "2026-10-11",
+      "note_type": "original package workflow informed by linked source; not a universal rule",
+      "related_ids": [
+        "postels-law",
+        "wcag-3.3.2"
+      ]
+    },
+    {
+      "id": "flow-contact-inputs",
+      "name": "Email and phone inputs",
+      "kind": "workflow",
+      "category": "forms",
+      "aliases": [
+        "eposta",
+        "telefon"
+      ],
+      "explanation": "Ask for contact details only when needed and explain their purpose.",
+      "action": "Allow correction and distinguish format validation from proof of ownership.",
+      "states": [
+        "typo",
+        "unverified",
+        "verified",
+        "changed"
+      ],
+      "check": "Enter a valid unfamiliar address and recover from a typo.",
+      "caution": "Avoid narrow format assumptions; verification can itself block access.",
+      "source_url": "https://design-system.service.gov.uk/patterns/email-addresses/",
+      "reviewed_on": "2026-10-11",
+      "note_type": "original package workflow informed by linked source; not a universal rule",
+      "related_ids": [
+        "postels-law",
+        "wcag-1.3.5"
+      ]
+    },
+    {
+      "id": "flow-navigation",
+      "name": "Navigation and information architecture",
+      "kind": "workflow",
+      "category": "navigation",
+      "aliases": [
+        "menü",
+        "gezinme",
+        "bilgi",
+        "mimarisi"
+      ],
+      "explanation": "Organize destinations around tasks and recognizable labels.",
+      "action": "Preserve location and a clear way back across routes.",
+      "states": [
+        "current",
+        "deep link",
+        "back",
+        "unauthorized"
+      ],
+      "check": "Give users destination-finding tasks and observe where they look first.",
+      "caution": "A menu item count alone does not establish usability or a Miller violation.",
+      "source_url": "https://design-system.service.gov.uk/patterns/navigate-a-service/",
+      "reviewed_on": "2026-10-11",
+      "note_type": "original package workflow informed by linked source; not a universal rule",
+      "related_ids": [
+        "jakobs-law",
+        "wcag-3.2.3",
+        "apg-landmarks"
+      ]
+    },
+    {
+      "id": "flow-search",
+      "name": "Search, filters and zero results",
+      "kind": "workflow",
+      "category": "navigation",
+      "aliases": [
+        "arama",
+        "filtre",
+        "sonuç"
+      ],
+      "explanation": "Make searching and refinement understandable in the user's vocabulary.",
+      "action": "Preserve the query and active filters; distinguish no matches from loading or failure.",
+      "states": [
+        "loading",
+        "results",
+        "zero",
+        "error",
+        "reset"
+      ],
+      "check": "Find a known item, narrow it away and recover without losing the query.",
+      "caution": "Do not silently drop filters or change query meaning to manufacture results.",
+      "source_url": "https://www.nngroup.com/articles/search-visible-and-simple/",
+      "reviewed_on": "2026-10-11",
+      "note_type": "original package workflow informed by linked source; not a universal rule",
+      "related_ids": [
+        "hicks-law",
+        "wcag-4.1.3",
+        "nielsen-01"
+      ]
+    },
+    {
+      "id": "flow-progressive-disclosure",
+      "name": "Progressive disclosure",
+      "kind": "workflow",
+      "category": "interaction",
+      "aliases": [
+        "aşamalı",
+        "gelişmiş",
+        "seçenek"
+      ],
+      "explanation": "Keep frequent choices near the task and make advanced options discoverable.",
+      "action": "Expose advanced configuration without hiding costs or required decisions.",
+      "states": [
+        "collapsed",
+        "expanded",
+        "configured"
+      ],
+      "check": "Have a novice finish the common task and an expert find an advanced control.",
+      "caution": "Secondary is task-dependent; hidden essentials create friction.",
+      "source_url": "https://www.nngroup.com/articles/progressive-disclosure/",
+      "reviewed_on": "2026-10-11",
+      "note_type": "original package workflow informed by linked source; not a universal rule",
+      "related_ids": [
+        "cognitive-load",
+        "apg-disclosure"
+      ]
+    },
+    {
+      "id": "flow-affordances",
+      "name": "Affordances and visible interaction cues",
+      "kind": "workflow",
+      "category": "interaction",
+      "aliases": [
+        "tıklanabilir",
+        "ipucu",
+        "affordance",
+        "signifier"
+      ],
+      "explanation": "Make actionable elements distinguishable before hover.",
+      "action": "Use recognizable labels and consistent cues while preserving the chosen visual language.",
+      "states": [
+        "rest",
+        "hover",
+        "focus",
+        "disabled"
+      ],
+      "check": "Ask which elements can be operated, then test actual activation.",
+      "caution": "A decorative resemblance is not proof of an operable affordance.",
+      "source_url": "https://www.nngroup.com/articles/flat-design-best-practices/",
+      "reviewed_on": "2026-10-11",
+      "note_type": "original package workflow informed by linked source; not a universal rule",
+      "related_ids": [
+        "jakobs-law",
+        "nielsen-04",
+        "wcag-1.4.11"
+      ]
+    },
+    {
+      "id": "flow-loading",
+      "name": "Loading, saving and progress",
+      "kind": "workflow",
+      "category": "feedback",
+      "aliases": [
+        "yükleniyor",
+        "kaydet",
+        "bekleme"
+      ],
+      "explanation": "Expose the current operation honestly and distinguish acknowledgement from completion.",
+      "action": "Use determinate progress only when meaningful progress can be measured.",
+      "states": [
+        "idle",
+        "pending",
+        "success",
+        "failure",
+        "cancelled"
+      ],
+      "check": "Delay and fail the request; inspect perceived state and duplicate activation.",
+      "caution": "A 400 ms completion requirement or invented percentage is not justified by Doherty.",
+      "source_url": "https://www.nngroup.com/articles/visibility-system-status/",
+      "reviewed_on": "2026-10-11",
+      "note_type": "original package workflow informed by linked source; not a universal rule",
+      "related_ids": [
+        "doherty-threshold",
+        "nielsen-01",
+        "wcag-4.1.3"
+      ]
+    },
+    {
+      "id": "flow-empty-offline",
+      "name": "Empty, unavailable and offline states",
+      "kind": "workflow",
+      "category": "feedback",
+      "aliases": [
+        "boş",
+        "çevrimdışı",
+        "ağ"
+      ],
+      "explanation": "Explain whether content is absent, inaccessible or temporarily unavailable.",
+      "action": "Keep a safe retry or alternative route and preserve the person's work.",
+      "states": [
+        "first use",
+        "zero data",
+        "offline",
+        "timeout"
+      ],
+      "check": "Disconnect mid-task and try recovery without losing edits.",
+      "caution": "An empty display must not masquerade as successful loading of no records.",
+      "source_url": "https://design-system.service.gov.uk/patterns/service-unavailable-pages/",
+      "reviewed_on": "2026-10-11",
+      "note_type": "original package workflow informed by linked source; not a universal rule",
+      "related_ids": [
+        "nielsen-09",
+        "nielsen-01"
+      ]
+    },
+    {
+      "id": "flow-destructive-actions",
+      "name": "Deletion, cancellation and undo",
+      "kind": "workflow",
+      "category": "recovery",
+      "aliases": [
+        "sil",
+        "iptal",
+        "geri",
+        "al"
+      ],
+      "explanation": "Make the affected object and consequence clear before irreversible commitment.",
+      "action": "Use undo for recoverable actions and specific confirmation where consequences justify it.",
+      "states": [
+        "selected",
+        "confirm",
+        "cancel",
+        "undone",
+        "expired"
+      ],
+      "check": "Delete the wrong item in a safe test environment and attempt recovery.",
+      "caution": "Do not promise undo after the underlying action becomes irreversible.",
+      "source_url": "https://www.nngroup.com/articles/user-control-and-freedom/",
+      "reviewed_on": "2026-10-11",
+      "note_type": "original package workflow informed by linked source; not a universal rule",
+      "related_ids": [
+        "nielsen-03",
+        "nielsen-05",
+        "wcag-3.3.4"
+      ]
+    },
+    {
+      "id": "flow-multistep",
+      "name": "Long tasks and resumability",
+      "kind": "workflow",
+      "category": "journeys",
+      "aliases": [
+        "adım",
+        "görev",
+        "devam",
+        "taslak"
+      ],
+      "explanation": "Show meaningful task status and dependencies in long processes.",
+      "action": "Allow return to unfinished sections and explain what remains.",
+      "states": [
+        "not started",
+        "partial",
+        "blocked",
+        "complete"
+      ],
+      "check": "Resume after interruption and identify the next required task.",
+      "caution": "Completion must reflect the real work, not motivational percentages.",
+      "source_url": "https://design-system.service.gov.uk/patterns/complete-multiple-tasks/",
+      "reviewed_on": "2026-10-11",
+      "note_type": "original package workflow informed by linked source; not a universal rule",
+      "related_ids": [
+        "goal-gradient-effect",
+        "wcag-3.3.7",
+        "nielsen-01"
+      ]
+    },
+    {
+      "id": "flow-help-support",
+      "name": "Contextual help and service handoff",
+      "kind": "workflow",
+      "category": "help",
+      "aliases": [
+        "yardım",
+        "destek"
+      ],
+      "explanation": "Put useful support where people encounter the problem.",
+      "action": "Explain available channels and realistic response expectations.",
+      "states": [
+        "self service",
+        "contact",
+        "waiting",
+        "resolved"
+      ],
+      "check": "Try obtaining help after skipping onboarding or losing an email.",
+      "caution": "Do not promise instant human support when the channel cannot deliver it.",
+      "source_url": "https://design-system.service.gov.uk/patterns/contact-a-department-or-service-team/",
+      "reviewed_on": "2026-10-11",
+      "note_type": "original package workflow informed by linked source; not a universal rule",
+      "related_ids": [
+        "nielsen-10",
+        "wcag-3.2.6"
+      ]
+    },
+    {
+      "id": "flow-responsive",
+      "name": "Responsive layout and zoom",
+      "kind": "workflow",
+      "category": "layout",
+      "aliases": [
+        "mobil",
+        "duyarlı",
+        "yakınlaştırma"
+      ],
+      "explanation": "Preserve task order, content and operation across narrow widths and zoom.",
+      "action": "Reflow ordinary content and evaluate legitimate two-dimensional exceptions separately.",
+      "states": [
+        "wide",
+        "narrow",
+        "zoomed",
+        "rotated"
+      ],
+      "check": "Test representative pages at 320 CSS pixels and 200% text sizing with long content.",
+      "caution": "A desktop screenshot scaled down is not a responsive or accessibility test.",
+      "source_url": "https://www.w3.org/TR/WCAG22/",
+      "reviewed_on": "2026-10-11",
+      "note_type": "original package workflow informed by linked source; not a universal rule",
+      "related_ids": [
+        "wcag-1.4.10",
+        "wcag-1.4.4",
+        "wcag-1.3.4"
+      ]
+    },
+    {
+      "id": "flow-content",
+      "name": "Labels, microcopy and comprehension",
+      "kind": "workflow",
+      "category": "content",
+      "aliases": [
+        "metin",
+        "etiket",
+        "sade",
+        "dil"
+      ],
+      "explanation": "Use words the audience can act on and make action consequences specific.",
+      "action": "Replace ambiguous calls to action with task language and keep essential context nearby.",
+      "states": [
+        "before action",
+        "error",
+        "confirmation"
+      ],
+      "check": "Ask users to explain a label and predict the result before selecting it.",
+      "caution": "Shorter copy is not automatically clearer, especially for consequential choices.",
+      "source_url": "https://www.nngroup.com/articles/match-system-real-world/",
+      "reviewed_on": "2026-10-11",
+      "note_type": "original package workflow informed by linked source; not a universal rule",
+      "related_ids": [
+        "nielsen-02",
+        "wcag-2.4.6",
+        "wcag-3.3.2"
+      ]
+    },
+    {
+      "id": "flow-i18n",
+      "name": "Internationalization and RTL",
+      "kind": "workflow",
+      "category": "content",
+      "aliases": [
+        "çeviri",
+        "türkçe",
+        "yerelleştirme",
+        "rtl"
+      ],
+      "explanation": "Plan for language, direction, names, numbers and dates beyond the default locale.",
+      "action": "Use explicit language/direction semantics and locale-aware formatting; allow text expansion.",
+      "states": [
+        "LTR",
+        "RTL",
+        "mixed script",
+        "long translation"
+      ],
+      "check": "Test Turkish dotted/dotless I, mixed-direction identifiers and long localized labels.",
+      "caution": "Do not translate by concatenating fragments or assume every culture shares a format.",
+      "source_url": "https://www.w3.org/International/quicktips/",
+      "reviewed_on": "2026-10-11",
+      "note_type": "original package workflow informed by linked source; not a universal rule",
+      "related_ids": [
+        "wcag-3.1.1",
+        "wcag-3.1.2",
+        "postels-law"
+      ]
+    },
+    {
+      "id": "flow-tables-charts",
+      "name": "Tables, charts and data meaning",
+      "kind": "workflow",
+      "category": "data",
+      "aliases": [
+        "tablo",
+        "grafik",
+        "veri"
+      ],
+      "explanation": "Make units, comparisons and relationships available beyond visual position or color.",
+      "action": "Use real table headers and provide meaningful alternatives for visual data.",
+      "states": [
+        "empty",
+        "sorted",
+        "filtered",
+        "missing data"
+      ],
+      "check": "Read a chart's conclusion without color and navigate table header relationships.",
+      "caution": "An interactive grid and a static table have different keyboard expectations.",
+      "source_url": "https://www.w3.org/WAI/tutorials/tables/",
+      "reviewed_on": "2026-10-11",
+      "note_type": "original package workflow informed by linked source; not a universal rule",
+      "related_ids": [
+        "apg-table",
+        "apg-grid",
+        "wcag-1.3.1",
+        "wcag-1.4.1"
+      ]
+    },
+    {
+      "id": "flow-motion",
+      "name": "Motion and reduced motion",
+      "kind": "workflow",
+      "category": "interaction",
+      "aliases": [
+        "animasyon",
+        "hareket"
+      ],
+      "explanation": "Use motion to explain change without blocking the task.",
+      "action": "Provide a reduced-motion experience that retains state and meaning.",
+      "states": [
+        "default",
+        "reduced",
+        "paused",
+        "interrupted"
+      ],
+      "check": "Turn on reduced motion and exercise transitions and essential status changes.",
+      "caution": "WCAG 2.3.3 is AAA; separately assess A-level flashing and automatic movement requirements.",
+      "source_url": "https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions.html",
+      "reviewed_on": "2026-10-11",
+      "note_type": "original package workflow informed by linked source; not a universal rule",
+      "related_ids": [
+        "wcag-2.3.3",
+        "wcag-2.2.2",
+        "wcag-2.3.1"
+      ]
+    },
+    {
+      "id": "flow-performance",
+      "name": "Performance as experienced",
+      "kind": "workflow",
+      "category": "performance",
+      "aliases": [
+        "hız",
+        "gecikme",
+        "performans"
+      ],
+      "explanation": "Measure loading, responsiveness and layout stability in realistic use.",
+      "action": "Use LCP, INP and CLS with field distributions and task-specific measurements.",
+      "states": [
+        "cold",
+        "warm",
+        "slow network",
+        "busy device"
+      ],
+      "check": "Inspect the 75th percentile separately for mobile and desktop; compare with lab traces.",
+      "caution": "Good Core Web Vitals targets are LCP ≤2.5s, INP ≤200ms and CLS ≤0.1; they do not prove overall usability.",
+      "source_url": "https://web.dev/articles/vitals",
+      "reviewed_on": "2026-10-11",
+      "note_type": "original package workflow informed by linked source; not a universal rule",
+      "related_ids": [
+        "doherty-threshold",
+        "nielsen-01"
+      ]
+    },
+    {
+      "id": "flow-privacy-choice",
+      "name": "Consent, choice and trust",
+      "kind": "workflow",
+      "category": "trust",
+      "aliases": [
+        "gizlilik",
+        "çerez",
+        "izin"
+      ],
+      "explanation": "Explain data use and let users make and revisit a meaningful choice.",
+      "action": "Give understandable choices without fabricated urgency or disguised rejection.",
+      "states": [
+        "undecided",
+        "accepted",
+        "rejected",
+        "changed"
+      ],
+      "check": "Reject optional use, revisit preferences and inspect whether the choice persists.",
+      "caution": "This is interaction guidance, not a jurisdiction-specific legal compliance assessment.",
+      "source_url": "https://design-system.service.gov.uk/components/cookie-banner/",
+      "reviewed_on": "2026-10-11",
+      "note_type": "original package workflow informed by linked source; not a universal rule",
+      "related_ids": [
+        "nielsen-03",
+        "goal-gradient-effect"
+      ]
+    },
+    {
+      "id": "flow-research",
+      "name": "User research and usability testing",
+      "kind": "workflow",
+      "category": "research",
+      "aliases": [
+        "araştırma",
+        "kullanıcı",
+        "test"
+      ],
+      "explanation": "Turn uncertain recommendations into tasks with observable outcomes.",
+      "action": "Recruit relevant users, avoid leading instructions and record breakdowns as well as success.",
+      "states": [
+        "recruit",
+        "consent",
+        "task",
+        "analysis"
+      ],
+      "check": "Use realistic goals; distinguish participant quotes, observation and interpretation.",
+      "caution": "No fixed sample size guarantees all problems; a heuristic review is not user research.",
+      "source_url": "https://www.gov.uk/service-manual/user-research/using-moderated-usability-testing",
+      "reviewed_on": "2026-10-11",
+      "note_type": "original package workflow informed by linked source; not a universal rule",
+      "related_ids": [
+        "mental-model"
+      ]
+    },
+    {
+      "id": "flow-research-privacy",
+      "name": "Research consent and data handling",
+      "kind": "workflow",
+      "category": "research",
+      "aliases": [
+        "araştırma",
+        "onam",
+        "kayıt"
+      ],
+      "explanation": "Collect only research data needed for the question and explain its handling.",
+      "action": "Use appropriate consent, access limits and retention plans for recordings and notes.",
+      "states": [
+        "invited",
+        "consented",
+        "withdrawn",
+        "deleted"
+      ],
+      "check": "Trace who can access a recording and how a participant's request is handled.",
+      "caution": "Do not expose participant data in public examples or convert interview comments into unsupported statistics.",
+      "source_url": "https://www.gov.uk/service-manual/user-research/managing-user-research-data-participant-privacy",
+      "reviewed_on": "2026-10-11",
+      "note_type": "original package workflow informed by linked source; not a universal rule",
+      "related_ids": [
+        "flow-research"
+      ]
+    },
+    {
+      "id": "flow-ai-interaction",
+      "name": "AI expectations, correction and control",
+      "kind": "workflow",
+      "category": "ai",
+      "aliases": [
+        "yapay",
+        "zeka",
+        "belirsizlik",
+        "AI"
+      ],
+      "explanation": "Make capability limits understandable and design for wrong or uncertain results.",
+      "action": "Provide review, correction and a route to recover from consequential mistakes.",
+      "states": [
+        "generating",
+        "uncertain",
+        "wrong",
+        "corrected",
+        "cancelled"
+      ],
+      "check": "Use a deliberately wrong result and check whether users notice and can recover.",
+      "caution": "A confident tone is not calibrated accuracy; this is a focused workflow, not a complete HAX reproduction.",
+      "source_url": "https://www.microsoft.com/en-us/haxtoolkit/ai-guidelines/",
+      "reviewed_on": "2026-10-11",
+      "note_type": "original package workflow informed by linked source; not a universal rule",
+      "related_ids": [
+        "mental-model",
+        "nielsen-03",
+        "nielsen-09"
+      ]
+    },
+    {
+      "id": "flow-design-system",
+      "name": "Reusable component rules and exceptions",
+      "kind": "workflow",
+      "category": "systems",
+      "aliases": [
+        "tasarım",
+        "sistemi",
+        "tutarlılık",
+        "token"
+      ],
+      "explanation": "Define behavior, states and accessibility alongside visual tokens.",
+      "action": "Document a component's intended use, exceptions and actual verification evidence.",
+      "states": [
+        "default",
+        "focus",
+        "disabled",
+        "error",
+        "loading"
+      ],
+      "check": "Use the component in two different flows and compare semantics and recovery.",
+      "caution": "Do not treat visual consistency as proof of correct task fit; preserve intentional project-specific style.",
+      "source_url": "https://www.nngroup.com/articles/consistency-and-standards/",
+      "reviewed_on": "2026-10-11",
+      "note_type": "original package workflow informed by linked source; not a universal rule",
+      "related_ids": [
+        "nielsen-04",
+        "jakobs-law"
+      ]
+    }
+  ]
+}
